@@ -10,10 +10,17 @@ There are [rules on English](https://www.cryptozoic.com/sites/default/files/icme
 
 ----------
 ## Setup
+- Place your bot's token in the end of Spyfall.py:
+```sh
+bot.run("place_your_token_here")
+```
+- [Add bot](https://discordapp.com/developers/applications/me) on your Discord server;
 
+- Turn it on
 ```sh
 python Spyfall.py
 ```
+
 
 ## Requirements
 

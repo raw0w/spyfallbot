@@ -5,6 +5,7 @@ Discord bot that simulates Spyfall boardgame.
 ## What is Spyfall?
 
 **SPYFALL** is an easy-to-learn card game of bluffing, probing questions, clever answers, and suspicion.
+
 There are [rules on English](https://www.cryptozoic.com/sites/default/files/icme/u30695/spy_rules_eng_0.pdf) and [rules on Russian](https://hobbyworld.ru/download/rules/SPY_rules_web.pdf)
 
 ----------

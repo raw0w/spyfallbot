@@ -1,3 +1,5 @@
+<p align="center"><img src="https://github.com/raw0w/spyfallbot/blob/master/spfll_header.jpg?raw=true"></p>
+
 # Spyfall Discord Bot
 
 Discord bot that simulates Spyfall boardgame. 

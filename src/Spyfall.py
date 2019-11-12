@@ -1,10 +1,14 @@
-import random
 import json
+import random
 
 import discord
 
+
 class SpyfallBot(discord.Client):
-    data = json.load('lang.json')
+    data: dict
+    with open('lang.json', encoding="utf8") as json_file:
+        data = json.load(json_file)
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.lang = 'rus'
@@ -18,8 +22,8 @@ class SpyfallBot(discord.Client):
             return
         elif message.content.startswith("!spyfall start"):
             get_loc = random.choice(SpyfallBot.data[self.lang]['locs'])
-            get_spy = random.choice(message.author.voice.voice_channel.voice_members)
-            player_list = message.author.voice.voice_channel.voice_members
+            get_spy = random.choice(message.author.voice.channel.members)
+            player_list = message.author.voice.channel.members
             player_string = ''
             for player in player_list:
                 if player == player_list[0]:
@@ -31,7 +35,7 @@ class SpyfallBot(discord.Client):
                 else:
                     await player.send(SpyfallBot.data[self.lang]['settings']['loc'] + ' ' + get_loc)
             await message.channel.send(SpyfallBot.data[self.lang]['settings']['start'])
-            await message.channel.send(SpyfallBot.data[self.lang]['settings']['players'])
+            await message.channel.send(SpyfallBot.data[self.lang]['settings']['players'] + player_string)
 
 
         elif message.content.startswith("!spyfall setlang rus"):

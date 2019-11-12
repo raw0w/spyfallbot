@@ -5,7 +5,6 @@ import discord
 
 
 class SpyfallBot(discord.Client):
-    data: dict
     with open('lang.json', encoding="utf8") as json_file:
         data = json.load(json_file)
 
@@ -66,4 +65,4 @@ class SpyfallBot(discord.Client):
 
 if __name__ == '__main__':
     bot = SpyfallBot()
-    bot.run("Mzg5OTQzNjU5Mzc5OTQ5NTY4.Xcs5mA.riEajhqQsowf7C2_JUDgdP8LfIE")
+    bot.run("<your_bot_token>")

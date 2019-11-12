@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/raw0w/spyfallbot/blob/master/spfll_header.jpg?raw=true"></p>
+<p align="center"><img src="https://github.com/raw0w/spyfallbot/blob/master/src/images/spfll_header.jpg?raw=true"></p>
 
 # Spyfall Discord Bot
 

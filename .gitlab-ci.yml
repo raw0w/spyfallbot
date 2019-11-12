@@ -1,7 +1,7 @@
 deploy:
   stage: deploy
   variables:
-    HEROKU_APP: spyfalldiscord
+    HEROKU_APP: <your_app_name>
   only:
     - master
   script:

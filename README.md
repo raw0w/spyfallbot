@@ -26,9 +26,8 @@ python Spyfall.py
 
 ## Requirements
 
-- Python 3.4.2
-- [discord.py](https://github.com/Rapptz/discord.py)
-- asyncio
+- Python 3.7.4
+- [discord.py==1.2.4](https://github.com/Rapptz/discord.py)
 
 
 ## List of commands

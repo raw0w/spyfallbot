@@ -1,1 +1,1 @@
-worker: python src/Spyfall.py
+worker: cd src && python Spyfall.py

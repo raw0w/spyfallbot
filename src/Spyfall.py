@@ -1,7 +1,10 @@
 import json
 import random
+import sys
 
 import discord
+
+sys.path.append('.')
 
 
 class SpyfallBot(discord.Client):

@@ -62,4 +62,4 @@ class SpyfallBot(discord.Client):
 
 if __name__ == '__main__':
     bot = SpyfallBot()
-    bot.run("place_your_token_here")
+    bot.run("Mzg5OTQzNjU5Mzc5OTQ5NTY4.Xcs5mA.riEajhqQsowf7C2_JUDgdP8LfIE")

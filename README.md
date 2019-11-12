@@ -26,26 +26,18 @@ python Spyfall.py
 
 ## Requirements
 
-- Python 3.4.2+
-- [discord.py](https://github.com/Rapptz/discord.py) library
-- `asyncio` library
-- `random` library 
-- `logging` library
+- Python 3.4.2
+- [discord.py](https://github.com/Rapptz/discord.py)
+- asyncio
 
-Usually `pip` will handle these for you.
 
 ## List of commands
 
-!spyfall setlang rus
-
-!spyfall setlang eng
-
-!spyfall rules
-
-!spyfall locs
-
-!spyfall suggest
-
-!spyfall start
+* `!spyfall setlang rus`
+* `!spyfall setlang eng`
+* `!spyfall rules`
+* `!spyfall locs`
+* `!spyfall suggest`
+* `!spyfall start`
 
 
